@@ -22,12 +22,18 @@ reversal_predictor.py と同じ yfinance のデータから自分でランキン
     python daily_decline_ranking.py
 """
 
+import json
+import os
 import warnings
 
 import numpy as np
 import pandas as pd
 import yfinance as yf
 import joblib
+import requests
+import matplotlib
+matplotlib.use("Agg")  # GitHub Actions等、画面のない環境でも動くように
+import matplotlib.pyplot as plt
 
 from reversal_predictor import add_technical_features, FEATURE_COLUMNS
 
@@ -50,8 +56,19 @@ def get_prime_market_info() -> pd.DataFrame:
 # =====================================================================
 
 MODEL_PATH = "./output/reversal_model.joblib"
-TOP_N = 20              # ランキングの表示件数(値下がり上位N件)
-HISTORY_PERIOD = "6mo"  # 特徴量計算に必要な過去データの取得期間
+TOP_N = 20               # 表・CSVに残す件数(値下がり上位N件)
+LINE_TOP_N = 10          # LINEカルーセルで送る件数(Flexメッセージは1通最大12バブルまでのため)
+HISTORY_PERIOD = "6mo"   # 特徴量計算に必要な過去データの取得期間
+CHART_PERIOD = "5y"      # チャート画像の期間(中〜長期)
+CHART_DIR = "charts"     # チャート画像の保存先(リポジトリ直下のフォルダ)
+
+# チャート画像を外部(LINE)から見えるURLに変換するための情報。
+# GitHub Actions実行時は自動でリポジトリ名・ブランチ名が環境変数から入る。
+GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "your-account/your-repo")
+GITHUB_REF_NAME = os.environ.get("GITHUB_REF_NAME", "main")
+RAW_BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_REPOSITORY}/{GITHUB_REF_NAME}"
+
+LINE_CHANNEL_ACCESS_TOKEN = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN", "")
 
 
 # =====================================================================
@@ -186,6 +203,148 @@ def format_output_table(ranking: pd.DataFrame) -> pd.DataFrame:
 
 
 # =====================================================================
+# 6. チャート画像を作成する(5年足 + 現在株価の横線)
+# =====================================================================
+
+def generate_chart_images(ranking: pd.DataFrame, output_dir: str = CHART_DIR) -> dict:
+    """
+    ランキング上位銘柄それぞれについて、中〜長期(5年)の株価チャートを作成し、
+    現在株価の位置に横線を引いた画像として保存する。
+    戻り値: {ticker: 画像ファイルパス} の辞書
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    image_paths = {}
+
+    for _, row in ranking.iterrows():
+        ticker = row["ticker"]
+        current_price = row["close"]
+
+        try:
+            hist = yf.download(ticker, period=CHART_PERIOD, auto_adjust=True, progress=False)
+        except Exception as e:
+            print(f"  [警告] {ticker} のチャート取得に失敗: {e}")
+            continue
+        if hist.empty:
+            print(f"  [警告] {ticker} のチャートデータが空です")
+            continue
+        if isinstance(hist.columns, pd.MultiIndex):
+            hist.columns = hist.columns.get_level_values(0)
+
+        fig, ax = plt.subplots(figsize=(8, 5))
+        ax.plot(hist.index, hist["Close"], color="#1f77b4", linewidth=1.2)
+        ax.axhline(current_price, color="red", linestyle="--", linewidth=1,
+                   label=f"現在株価 {current_price:.0f}円")
+        ax.set_title(f"{ticker}  {CHART_PERIOD}チャート")
+        ax.legend(loc="upper left")
+        ax.grid(alpha=0.3)
+        fig.tight_layout()
+
+        code = ticker.replace(".T", "")
+        path = os.path.join(output_dir, f"{code}.png")
+        fig.savefig(path, dpi=110)
+        plt.close(fig)
+
+        image_paths[ticker] = path
+
+    return image_paths
+
+
+# =====================================================================
+# 7. LINE Flexメッセージ(カルーセル)を組み立てる
+# =====================================================================
+
+def _flex_row(label: str, value: str) -> dict:
+    return {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+            {"type": "text", "text": label, "size": "sm", "color": "#aaaaaa", "flex": 2},
+            {"type": "text", "text": str(value), "size": "sm", "flex": 3, "wrap": True},
+        ],
+    }
+
+
+def build_flex_carousel(ranking: pd.DataFrame, image_paths: dict, top_n: int = LINE_TOP_N) -> dict:
+    """
+    ランキング上位top_n件を、1銘柄=1バブル(カード)としたカルーセルFlexメッセージにする。
+    画像はGitHubにpush済みである前提で、raw.githubusercontent.comのURLを組み立てる。
+    """
+    bubbles = []
+    for _, row in ranking.head(top_n).iterrows():
+        ticker = row["ticker"]
+        if ticker not in image_paths:
+            continue
+
+        image_url = f"{RAW_BASE_URL}/{image_paths[ticker]}"
+        market_cap = row.get("market_cap")
+        market_cap_text = f"{market_cap / 1e8:.0f}億円" if pd.notna(market_cap) else "不明"
+        proba = row.get("reversal_probability")
+        proba_text = f"{proba * 100:.1f}%" if pd.notna(proba) else "算出不可"
+
+        bubble = {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "url": image_url,
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": f"{row.get('銘柄名', row.get('コード', ticker))} ({row['コード']})",
+                        "weight": "bold",
+                        "size": "md",
+                        "wrap": True,
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "md",
+                        "spacing": "sm",
+                        "contents": [
+                            _flex_row("業種", row.get("33業種区分", "-")),
+                            _flex_row("時価総額", market_cap_text),
+                            _flex_row("値下がり率", f"{row['decline_return_1d'] * 100:.2f}%"),
+                            _flex_row("現在株価", f"{row['close']:.0f}円"),
+                            _flex_row("反転確率", proba_text),
+                        ],
+                    },
+                ],
+            },
+        }
+        bubbles.append(bubble)
+
+    return {
+        "type": "flex",
+        "altText": "本日の値下がりランキング",
+        "contents": {"type": "carousel", "contents": bubbles},
+    }
+
+
+# =====================================================================
+# 8. LINEへブロードキャスト送信する(友だち全員へ。userIdの取得が不要)
+# =====================================================================
+
+def send_line_broadcast(flex_message: dict, channel_access_token: str) -> None:
+    url = "https://api.line.me/v2/bot/message/broadcast"
+    headers = {
+        "Authorization": f"Bearer {channel_access_token}",
+        "Content-Type": "application/json",
+    }
+    payload = {"messages": [flex_message]}
+
+    resp = requests.post(url, headers=headers, data=json.dumps(payload))
+    if resp.status_code != 200:
+        raise RuntimeError(f"LINE送信に失敗しました: {resp.status_code} {resp.text}")
+    print("LINEへの送信に成功しました。")
+
+
+# =====================================================================
 # メイン処理
 # =====================================================================
 
@@ -199,11 +358,18 @@ if __name__ == "__main__":
     ranking = attach_reversal_probability(ranking, MODEL_PATH)
 
     table = format_output_table(ranking)
-
     print(f"\n=== 値下がりランキング TOP {TOP_N}(反転確率つき) ===")
     print(table.to_string(index=False))
 
-    import os
     os.makedirs("./output", exist_ok=True)
     table.to_csv("./output/daily_decline_ranking.csv", index=False, encoding="utf-8-sig")
     print("\n結果を保存しました: ./output/daily_decline_ranking.csv")
+
+    # LINE送信用: 上位LINE_TOP_N件のチャート画像を作成
+    image_paths = generate_chart_images(ranking.head(LINE_TOP_N))
+
+    # Flexメッセージを組み立てて保存(実際の送信は、画像をGitHubにpushした後の別ステップで行う)
+    flex_message = build_flex_carousel(ranking, image_paths)
+    with open("./output/line_flex_message.json", "w", encoding="utf-8") as f:
+        json.dump(flex_message, f, ensure_ascii=False, indent=2)
+    print("Flexメッセージを保存しました: ./output/line_flex_message.json")
