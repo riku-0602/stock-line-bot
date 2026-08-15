@@ -63,7 +63,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "6163億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -194,7 +194,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "1657億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -325,7 +325,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "522億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -456,7 +456,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "114101億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -587,7 +587,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "906億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -663,7 +663,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/3962.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/3099.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -674,7 +674,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "チェンジホールディングス (3962)",
+              "text": "三越伊勢丹ホールディングス (3099)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -698,7 +698,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "情報・通信業",
+                      "text": "小売業",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -718,7 +718,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "12343億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -738,7 +738,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-3.32%",
+                      "text": "-3.98%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -758,7 +758,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "960円",
+                      "text": "3548円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -849,7 +849,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "1553億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -980,7 +980,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "74億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1111,7 +1111,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "208億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1242,7 +1242,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "不明",
+                      "text": "16879億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
