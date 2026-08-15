@@ -2,8 +2,8 @@ name: Daily Decline Ranking to LINE
 
 on:
   schedule:
-    # UTC 23:00 = 日本時間 翌8:00(平日のみ動かしたい場合は曜日指定を調整してください)
-    - cron: "0 23 * * 0-4"
+    # UTC 0:40 = 日本時間 9:40(平日のみ)
+    - cron: "40 0 * * 1-5"
   workflow_dispatch: {}  # 手動実行用(動作確認に便利)
 
 permissions:
