@@ -63,7 +63,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "451億円",
+                      "text": "不明",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -83,7 +83,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-7.00%",
+                      "text": "-9.33%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -103,7 +103,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "638円",
+                      "text": "622円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -123,7 +123,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "65.1%",
+                      "text": "67.1%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -143,7 +143,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "702円(+10%)",
+                      "text": "653円(+5%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -163,7 +163,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "619円(-3%)",
+                      "text": "603円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -234,7 +234,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "1395億円",
+                      "text": "不明",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -254,7 +254,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-4.02%",
+                      "text": "-5.77%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -274,7 +274,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "7650円",
+                      "text": "7510円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -294,7 +294,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "58.3%",
+                      "text": "61.6%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -314,7 +314,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "8415円(+10%)",
+                      "text": "7886円(+5%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -334,178 +334,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "7420円(-3%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/6976.png",
-          "size": "full",
-          "aspectRatio": "20:13",
-          "aspectMode": "cover"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "太陽誘電 (6976)",
-              "weight": "bold",
-              "size": "md",
-              "wrap": true
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "margin": "md",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "業種",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "電気機器",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "時価総額",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "12928億円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "値下がり率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "-8.76%",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "現在株価",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "10305円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "反転確率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "55.8%",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "11336円(+10%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "逆指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "9996円(-3%)",
+                      "text": "7285円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -576,7 +405,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4530億円",
+                      "text": "不明",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -596,7 +425,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-5.26%",
+                      "text": "-9.47%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -616,7 +445,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "2000円",
+                      "text": "1911円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -636,7 +465,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "55.8%",
+                      "text": "58.3%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -656,7 +485,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "2200円(+10%)",
+                      "text": "2007円(+5%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -676,7 +505,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "1940円(-3%)",
+                      "text": "1854円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -747,7 +576,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "5961億円",
+                      "text": "不明",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -767,7 +596,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-4.51%",
+                      "text": "-6.69%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -787,7 +616,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3285円",
+                      "text": "3210円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -807,7 +636,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "55.2%",
+                      "text": "55.6%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -827,7 +656,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3614円(+10%)",
+                      "text": "3370円(+5%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -847,7 +676,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3186円(-3%)",
+                      "text": "3114円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -863,7 +692,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/6237.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/6976.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -874,7 +703,178 @@
           "contents": [
             {
               "type": "text",
-              "text": "イワキポンプ (6237)",
+              "text": "太陽誘電 (6976)",
+              "weight": "bold",
+              "size": "md",
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "md",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "業種",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "電気機器",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "時価総額",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "不明",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "-11.54%",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "現在株価",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "9991円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "反転確率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "55.5%",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "10491円(+5%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "逆指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "9691円(-3%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/6235.png",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "オプトラン (6235)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -918,7 +918,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "945億円",
+                      "text": "不明",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -938,7 +938,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-9.46%",
+                      "text": "-7.08%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -958,7 +958,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4260円",
+                      "text": "2978円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -978,7 +978,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "54.6%",
+                      "text": "55.2%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -998,7 +998,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4686円(+10%)",
+                      "text": "3127円(+5%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1018,7 +1018,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4132円(-3%)",
+                      "text": "2889円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1034,7 +1034,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/3763.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/3445.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -1045,7 +1045,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "プロシップ (3763)",
+              "text": "ＲＳ　Ｔｅｃｈｎｏｌｏｇｉｅｓ (3445)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -1069,7 +1069,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "情報・通信業",
+                      "text": "金属製品",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1089,7 +1089,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "594億円",
+                      "text": "不明",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1109,7 +1109,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-7.79%",
+                      "text": "-6.30%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1129,7 +1129,178 @@
                     },
                     {
                       "type": "text",
-                      "text": "2308円",
+                      "text": "5950円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "反転確率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "53.1%",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "6248円(+5%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "逆指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "5772円(-3%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/6101.png",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "ツガミ (6101)",
+              "weight": "bold",
+              "size": "md",
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "md",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "業種",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "機械",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "時価総額",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "不明",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "-7.21%",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "現在株価",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "5790円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1169,7 +1340,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "2539円(+10%)",
+                      "text": "6080円(+5%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1189,7 +1360,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "2239円(-3%)",
+                      "text": "5616円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1205,7 +1376,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/4182.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/7762.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -1216,7 +1387,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "三菱瓦斯化学 (4182)",
+              "text": "シチズン時計 (7762)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -1240,7 +1411,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "化学",
+                      "text": "精密機器",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1260,7 +1431,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "7893億円",
+                      "text": "不明",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1280,7 +1451,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-4.28%",
+                      "text": "-7.18%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1300,7 +1471,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4045円",
+                      "text": "2600円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1320,7 +1491,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "50.2%",
+                      "text": "50.6%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1340,7 +1511,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4450円(+10%)",
+                      "text": "2730円(+5%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1360,7 +1531,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3924円(-3%)",
+                      "text": "2522円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1376,7 +1547,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/285A.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/6324.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -1387,7 +1558,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "キオクシアホールディングス (285A)",
+              "text": "ハーモニック・ドライブ・システムズ (6324)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -1411,7 +1582,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "電気機器",
+                      "text": "機械",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1431,7 +1602,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "325007億円",
+                      "text": "不明",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1451,7 +1622,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-3.91%",
+                      "text": "-8.45%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1471,7 +1642,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "59420円",
+                      "text": "5960円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1491,7 +1662,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "50.0%",
+                      "text": "50.6%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1511,7 +1682,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "65362円(+10%)",
+                      "text": "6258円(+5%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1531,178 +1702,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "57637円(-3%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/6981.png",
-          "size": "full",
-          "aspectRatio": "20:13",
-          "aspectMode": "cover"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "村田製作所 (6981)",
-              "weight": "bold",
-              "size": "md",
-              "wrap": true
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "margin": "md",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "業種",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "電気機器",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "時価総額",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "141147億円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "値下がり率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "-6.47%",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "現在株価",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "7754円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "反転確率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "49.9%",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "8529円(+10%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "逆指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "7521円(-3%)",
+                      "text": "5781円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
