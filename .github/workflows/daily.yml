@@ -32,6 +32,8 @@ jobs:
           fi
 
       - name: Generate today's ranking, charts, and Flex message
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python daily_decline_ranking.py
 
       - name: Commit and push charts/output
