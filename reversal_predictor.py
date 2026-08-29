@@ -69,6 +69,15 @@ NIKKEI225_CODES = (
     "7951","7272","9064","6506","6841",
 )
 
+JPX_LIST_URL = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
+
+
+def get_prime_market_codes() -> list:
+    """JPX公式の東証上場銘柄一覧から、プライム市場銘柄の証券コード一覧を取得する"""
+    df = pd.read_excel(JPX_LIST_URL)
+    prime = df[df["市場・商品区分"] == "プライム（内国株式）"]
+    return prime["コード"].astype(str).str.zfill(4).tolist()
+
 
 # =====================================================================
 # 1. 設定(ここを自分の目的に合わせて調整してください)
@@ -76,7 +85,7 @@ NIKKEI225_CODES = (
 
 @dataclass
 class Config:
-    # 日経225全銘柄を対象にする(yfinance用に ".T" を付与)
+    # 対象銘柄(mainではプライム市場全体に差し替える。日経225はデフォルトのフォールバック)
     tickers: tuple = tuple(f"{code}.T" for code in NIKKEI225_CODES)
 
     start_date: str = "2015-01-01"
@@ -86,10 +95,10 @@ class Config:
     decline_threshold: float = -0.05
 
     # 反転判定に使う保有期間(営業日数)
-    forward_days: int = 10
+    forward_days: int = 5
 
     # この保有期間内の最大上昇率がこの値以上なら「反転成功」とラベル付け
-    reversal_threshold: float = 0.05
+    reversal_threshold: float = 0.10
 
     # TimeSeriesSplitでの交差検証に使う分割数
     n_splits: int = 5
@@ -97,7 +106,8 @@ class Config:
     model_out_path: str = "./output/reversal_model.joblib"
 
 
-CFG = Config()
+# CFGはモジュール読み込み時には作らず、__main__内でプライム市場銘柄を取得してから生成する
+# (他のスクリプトがNIKKEI225_CODESだけを使う場合に、不要な通信が走らないようにするため)
 
 
 # =====================================================================
@@ -384,6 +394,11 @@ def predict_reversal_probability(model, latest_feature_row: dict) -> float:
 if __name__ == "__main__":
     import os
     os.makedirs("./output", exist_ok=True)  # 保存先フォルダが無ければ作成
+
+    print("プライム市場銘柄一覧を取得中...")
+    prime_codes = get_prime_market_codes()
+    CFG = Config(tickers=tuple(f"{code}.T" for code in prime_codes))
+    print(f"対象銘柄数: {len(CFG.tickers)}")
 
     dataset = build_dataset(CFG)
     print(f"\n抽出された値下がりイベント総数: {len(dataset)}")
