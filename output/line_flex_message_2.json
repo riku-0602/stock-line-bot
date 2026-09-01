@@ -123,7 +123,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "44.1%(19:59時点)",
+                      "text": "44.1%(21:58時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -183,7 +183,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "直接の関連は不明ですが、決算内容や新株発行による希薄化懸念が影響した可能性が考えられます。（45文字）",
+                      "text": "直接の関連は不明ですが、決算内容や新株発行による株式希薄化の懸念などが考えられます。",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -314,7 +314,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "43.3%(19:59時点)",
+                      "text": "43.3%(21:58時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -374,7 +374,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "直接の関連は読み取れず、決算内容が市場期待に届かなかった可能性などが考えられます。",
+                      "text": "(要約生成に失敗しました)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -505,7 +505,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "42.3%(19:59時点)",
+                      "text": "42.3%(21:58時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -565,7 +565,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "直接の関連は読み取れませんが、業績や配当予想の修正が影響した可能性が考えられます。",
+                      "text": "(要約生成に失敗しました)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -696,7 +696,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "39.7%(19:59時点)",
+                      "text": "39.7%(21:58時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -756,7 +756,198 @@
                     },
                     {
                       "type": "text",
-                      "text": "直接的な関連は読み取れませんが、中間業績予想の修正等が影響した可能性があります。",
+                      "text": "(要約生成に失敗しました)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/7322.png",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "三十三フィナンシャルグループ (7322)",
+              "weight": "bold",
+              "size": "md",
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "md",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "業種",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "銀行業",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "時価総額",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "2219億円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "-5.37%",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "現在株価",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "2132円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "反転確率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "37.7%(21:58時点)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "2345円(+10%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "逆指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "2068円(-3%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり要因",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "(要約生成に失敗しました)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -887,7 +1078,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "36.2%(19:59時点)",
+                      "text": "36.2%(21:58時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -947,7 +1138,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "直接的な関連は不明ですが、有価証券含み損の開示などが嫌気された可能性があります。",
+                      "text": "(要約生成に失敗しました)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1078,7 +1269,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "33.1%(19:59時点)",
+                      "text": "33.1%(21:58時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1138,7 +1329,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "直接の関連は読み取れませんが、業績や配当予想の修正が影響した可能性が考えられます。（41文字）",
+                      "text": "(要約生成に失敗しました)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1269,7 +1460,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "30.8%(19:59時点)",
+                      "text": "30.8%(21:58時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1329,7 +1520,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "直接的な関連は不明ですが、中間期実績と業績予想の差異が影響した可能性が考えられます。（43文字）",
+                      "text": "(要約生成に失敗しました)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1460,7 +1651,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "30.4%(19:59時点)",
+                      "text": "30.4%(21:58時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1520,7 +1711,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "子会社の不正アクセスによる個人情報漏えい発表が懸念された可能性などが考えられます。",
+                      "text": "(要約生成に失敗しました)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1651,7 +1842,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "30.2%(19:59時点)",
+                      "text": "30.2%(21:58時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1711,7 +1902,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "直接的な要因は不明ですが、第1四半期決算や月次業績が意識された可能性も考えられます。",
+                      "text": "(要約生成に失敗しました)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
