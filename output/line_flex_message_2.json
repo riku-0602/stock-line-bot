@@ -8,7 +8,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/8237.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/3548.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -19,7 +19,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "松屋 (8237)",
+              "text": "バロックジャパンリミテッド (3548)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -63,7 +63,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "1269億円",
+                      "text": "214億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -83,7 +83,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-5.27%",
+                      "text": "-3.74%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -103,7 +103,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "2500円",
+                      "text": "592円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -123,7 +123,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "36.7%(23:46時点)",
+                      "text": "30.1%(22:52時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -143,7 +143,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "2750円(+10%)",
+                      "text": "651円(+10%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -163,7 +163,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "2425円(-3%)",
+                      "text": "574円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -183,7 +183,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "提供されたタイトル情報のみでは詳細な数値や内容が判明しないため、株価下落の直接的な要因を読み取ることは困難です。第2四半期決算や月次売上の結果が影響した可能性も考えられますが、あくまで参考情報としてご確認ください。（108字）\n\n※40字程度にまとめた場合：\n**提供されたタイトルのみでは詳細不明なため、株価下落との直接的な要因は読み取れません。**（42字）",
+                      "text": "特別損失の計上や通期業績予想の修正発表に伴う業績懸念が影響した可能性があります。（40字）",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -199,7 +199,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/4385.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/8060.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -210,7 +210,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "メルカリ (4385)",
+              "text": "キヤノンマーケティングジャパン (8060)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -234,7 +234,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "情報・通信業",
+                      "text": "卸売業",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -254,7 +254,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "5670億円",
+                      "text": "8289億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -274,7 +274,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-6.21%",
+                      "text": "-5.25%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -294,7 +294,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3474円",
+                      "text": "4026円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -314,7 +314,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "34.4%(23:46時点)",
+                      "text": "30.0%(22:52時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -334,7 +334,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3821円(+10%)",
+                      "text": "4429円(+10%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -354,7 +354,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3370円(-3%)",
+                      "text": "3905円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -374,7 +374,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "業績の前期実績との差異や決算内容が市場期待を下回った可能性などが考えられます。（39字）",
+                      "text": "タイトルのみから直接的な因果関係を特定するのは困難ですが、決算内容への評価や自社株買いの終了などが影響した可能性が考えられます。",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -390,7 +390,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/9424.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/9020.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -401,580 +401,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "日本通信 (9424)",
-              "weight": "bold",
-              "size": "md",
-              "wrap": true
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "margin": "md",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "業種",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "情報・通信業",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "時価総額",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "193億円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "値下がり率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "-5.74%",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "現在株価",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "115円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "反転確率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "33.8%(23:46時点)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "127円(+10%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "逆指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "112円(-3%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "値下がり要因",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "タイトルだけでは直接的な特定は困難ですが、決算結果や新株発行による希薄化懸念が影響した可能性があります。（48字）",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/4680.png",
-          "size": "full",
-          "aspectRatio": "20:13",
-          "aspectMode": "cover"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "ラウンドワン (4680)",
-              "weight": "bold",
-              "size": "md",
-              "wrap": true
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "margin": "md",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "業種",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "サービス業",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "時価総額",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "3296億円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "値下がり率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "-4.86%",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "現在株価",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "1254円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "反転確率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "33.2%(23:46時点)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "1379円(+10%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "逆指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "1216円(-3%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "値下がり要因",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "タイトルからは直接の因果関係を読み取れませんが、月次売上の減速や第1四半期決算の伸び悩みが影響した可能性が考えられます。",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/3563.png",
-          "size": "full",
-          "aspectRatio": "20:13",
-          "aspectMode": "cover"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "ＦＯＯＤ　＆　ＬＩＦＥ　ＣＯＭＰＡＮＩＥＳ (3563)",
-              "weight": "bold",
-              "size": "md",
-              "wrap": true
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "margin": "md",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "業種",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "小売業",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "時価総額",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "12500億円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "値下がり率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "-5.43%",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "現在株価",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "5500円",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "反転確率",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "32.6%(23:46時点)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "6050円(+10%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "逆指値",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "5335円(-3%)",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "値下がり要因",
-                      "size": "sm",
-                      "color": "#aaaaaa",
-                      "flex": 2
-                    },
-                    {
-                      "type": "text",
-                      "text": "開示タイトルからは特定できませんが、第3四半期決算の内容が懸念された可能性などが考えられます。",
-                      "size": "sm",
-                      "flex": 3,
-                      "wrap": true
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/2384.png",
-          "size": "full",
-          "aspectRatio": "20:13",
-          "aspectMode": "cover"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "ＳＢＳホールディングス (2384)",
+              "text": "東日本旅客鉄道 (9020)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -1018,7 +445,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "2252億円",
+                      "text": "40748億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1038,7 +465,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-5.03%",
+                      "text": "-3.40%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1058,7 +485,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "5670円",
+                      "text": "3609円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1078,7 +505,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "31.7%(23:46時点)",
+                      "text": "30.0%(22:52時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1098,7 +525,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "6237円(+10%)",
+                      "text": "3970円(+10%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1118,7 +545,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "5500円(-3%)",
+                      "text": "3501円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1138,7 +565,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "通期業績や配当予想の修正、決算内容の悪化などが影響した可能性が考えられます。（38字）",
+                      "text": "開示タイトルから直接の要因は読み取れませんが、決算発表等が影響した可能性も考えられます。",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1154,7 +581,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/3769.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/3092.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -1165,7 +592,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "ＧＭＯペイメントゲートウェイ (3769)",
+              "text": "ＺＯＺＯ (3092)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -1189,7 +616,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "情報・通信業",
+                      "text": "小売業",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1209,7 +636,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "6209億円",
+                      "text": "10406億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1229,7 +656,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-6.29%",
+                      "text": "-3.77%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1249,7 +676,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "8176円",
+                      "text": "1200円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1269,7 +696,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "31.7%(23:46時点)",
+                      "text": "30.0%(22:52時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1289,7 +716,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "8994円(+10%)",
+                      "text": "1321円(+10%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1309,7 +736,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "7931円(-3%)",
+                      "text": "1164円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1329,7 +756,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "開示タイトルから直接の理由は判別できませんが、決算内容や社債発行等が懸念された可能性も考えられます。（46字）",
+                      "text": "開示情報からは直接の要因は読み取れませんが、直近の決算内容が影響した可能性があります。",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1345,7 +772,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/7936.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/8697.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -1356,7 +783,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "アシックス (7936)",
+              "text": "日本取引所グループ (8697)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -1380,7 +807,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "その他製品",
+                      "text": "その他金融業",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1400,7 +827,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "32234億円",
+                      "text": "21265億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1420,7 +847,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-5.92%",
+                      "text": "-4.83%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1440,7 +867,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4574円",
+                      "text": "2088円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1460,7 +887,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "31.3%(23:46時点)",
+                      "text": "29.9%(22:52時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1480,7 +907,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "5031円(+10%)",
+                      "text": "2297円(+10%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1500,7 +927,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4437円(-3%)",
+                      "text": "2025円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1520,7 +947,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "開示タイトルから直接的な下落要因は読み取れず、材料出尽くしなどが影響した可能性も考えられます。（45字）",
+                      "text": "タイトルのみから直接的な要因は読み取れませんが、業績予想の修正や自社株買い終了が影響した可能性があります。（45字）",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1536,7 +963,7 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/7931.png",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/7606.png",
           "size": "full",
           "aspectRatio": "20:13",
           "aspectMode": "cover"
@@ -1547,7 +974,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "未来工業 (7931)",
+              "text": "ユナイテッドアローズ (7606)",
               "weight": "bold",
               "size": "md",
               "wrap": true
@@ -1571,7 +998,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "化学",
+                      "text": "小売業",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1591,7 +1018,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "563億円",
+                      "text": "684億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1611,7 +1038,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-4.13%",
+                      "text": "-4.32%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1631,7 +1058,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3485円",
+                      "text": "2550円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1651,7 +1078,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "29.8%(23:46時点)",
+                      "text": "29.9%(22:52時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1671,7 +1098,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3834円(+10%)",
+                      "text": "2805円(+10%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1691,7 +1118,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3380円(-3%)",
+                      "text": "2474円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1711,7 +1138,389 @@
                     },
                     {
                       "type": "text",
-                      "text": "タイトルのみから直接的な下落要因を特定することはできませんが、業績予想の修正内容などが影響した可能性も考えられます。（53字）",
+                      "text": "タイトルのみから直接の因果関係は判明しませんが、決算・月次売上動向や自社株買い終了の影響などが考えられます。（46字）",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/6183.png",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "ベルシステム２４ホールディングス (6183)",
+              "weight": "bold",
+              "size": "md",
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "md",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "業種",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "サービス業",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "時価総額",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "1005億円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "-3.63%",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "現在株価",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "1353円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "反転確率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "29.8%(22:52時点)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "1488円(+10%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "逆指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "1312円(-3%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり要因",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "タイトルからは直接的な要因を判別できませんが、公表された決算内容が市場の期待を下回った可能性などが考えられます。",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/8804.png",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "東京建物 (8804)",
+              "weight": "bold",
+              "size": "md",
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "md",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "業種",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "不動産業",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "時価総額",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "6720億円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "-3.37%",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "現在株価",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "3244円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "反転確率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "29.8%(22:52時点)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "3568円(+10%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "逆指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "3147円(-3%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり要因",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "直接の要因は読み取れませんが、業績や配当予想の修正内容が影響した可能性があります。（41字）",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1782,7 +1591,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4137億円",
+                      "text": "3968億円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1802,7 +1611,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-7.18%",
+                      "text": "-4.08%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1822,7 +1631,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3360円",
+                      "text": "3223円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1842,7 +1651,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "23.0%(23:46時点)",
+                      "text": "28.5%(22:52時点)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1862,7 +1671,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3696円(+10%)",
+                      "text": "3545円(+10%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1882,7 +1691,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "3259円(-3%)",
+                      "text": "3126円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -1902,7 +1711,198 @@
                     },
                     {
                       "type": "text",
-                      "text": "開示タイトルのみから下落の直接的要因を特定することは困難ですが、決算発表等の内容が影響した可能性が考えられます。",
+                      "text": "提示情報から直接の要因は特定できませんが、決算内容などが影響した可能性が考えられます。（42文字）",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/riku-0602/stock-line-bot/main/charts/6788.png",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "日本トリム (6788)",
+              "weight": "bold",
+              "size": "md",
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "md",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "業種",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "電気機器",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "時価総額",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "372億円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "-6.19%",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "現在株価",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "5000円",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "反転確率",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "26.2%(22:52時点)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "5500円(+10%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "逆指値",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "4850円(-3%)",
+                      "size": "sm",
+                      "flex": 3,
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "値下がり要因",
+                      "size": "sm",
+                      "color": "#aaaaaa",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "提示された開示タイトルのみでは株価下落の直接的な要因は判別できませんが、第１四半期決算の内容などが影響した可能性も考えられます。",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
