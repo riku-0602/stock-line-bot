@@ -83,7 +83,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "-0.04%",
+                      "text": "0.00%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -274,7 +274,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "0.11%",
+                      "text": "0.00%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
