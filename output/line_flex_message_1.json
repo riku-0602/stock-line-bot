@@ -83,7 +83,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "0.19%",
+                      "text": "0.04%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -103,7 +103,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4713円",
+                      "text": "4715円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -143,7 +143,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "5184円(+10%)",
+                      "text": "5186円(+10%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -163,7 +163,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4572円(-3%)",
+                      "text": "4574円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -274,7 +274,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "0.20%",
+                      "text": "0.10%",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -294,7 +294,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4890円",
+                      "text": "4895円",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -334,7 +334,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "5379円(+10%)",
+                      "text": "5384円(+10%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
@@ -354,7 +354,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "4743円(-3%)",
+                      "text": "4748円(-3%)",
                       "size": "sm",
                       "flex": 3,
                       "wrap": true
